@@ -10,4 +10,11 @@ html {
 body {
   max-width: 320px;
   margin: auto;
+  background-color: black;
+}
+
+article {
+  background-color: white;
+  margin: 19px 27px;
+  padding: 34px 29px;
 }
