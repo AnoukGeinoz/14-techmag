@@ -18,3 +18,10 @@ article {
   margin: 19px 27px;
   padding: 34px 29px;
 }
+
+div {
+  background-color: #2afca6;
+  margin: 19px 27px;
+  padding: 34px 29px;
+  color: #033427;
+}
