@@ -25,3 +25,8 @@ div {
   padding: 34px 29px;
   color: #033427;
 }
+
+img {
+  max-width: 100%;
+  height: 100%; 
+}
