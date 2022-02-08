@@ -38,7 +38,7 @@ em {
 div {
   background-color: #2afca6;
   margin: 19px 27px;
-  padding: 34px 29px;
+  padding: 30px 29px 50px 29px;
   color: #033427;
 }
 
@@ -46,11 +46,6 @@ article {
   background-color: white;
   margin: 19px 27px;
   padding: 34px 29px;
-}
-
-figcaption {
-  box-shadow: 3px 3px 5px #e7e7e7;
-  font-size: 13px;
 }
 
 .button {
@@ -89,6 +84,16 @@ footer {
 img {
   max-width: 100%;
   height: 100%; 
+}
+
+figure {
+  margin: 0;
+  box-shadow: 3px 3px 5px #e7e7e7;
+}
+
+figcaption {
+  box-shadow: 3px 3px 5px #e7e7e7;
+  font-size: 13px;
 }
 
 h1 {
