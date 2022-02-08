@@ -11,6 +11,7 @@ body {
   max-width: 320px;
   margin: auto;
   background-color: black;
+  font-family: 'Open Sans', sans-serif;
 }
 
 article {
@@ -31,12 +32,17 @@ img {
   height: 100%; 
 }
 
-header {
+.site-header {
   border: 2px solid white;
   margin: 19px 27px;
   padding: 34px 29px;
   background-image: url("../img/img_header.jpg");
   color: white; 
+  text-align: left;
+}
+
+.site-header h1 {
+  font-family: 'Montserrat', sans-serif;
 }
 
 em {
