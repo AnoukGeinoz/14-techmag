@@ -66,4 +66,16 @@ h2 {
   padding: 2px 12px; 
   font-size: 13px; 
   text-decoration: none;
+  box-shadow: inset rgb #393939; 
+  box-shadow: #f6f6f6 1px;
+  text-shadow: #393939 1px;
+}
+
+footer {
+  border: 2px solid #2bffaa; 
+  color: white;
+  margin: 19px 27px;
+  padding: 17px 29px;
+  text-align: center;
+  font-size: 10px; 
 }
