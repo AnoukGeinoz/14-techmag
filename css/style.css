@@ -5,12 +5,12 @@
 
 html {
   scroll-behavior: smooth;
+  background-color: black;
 }
 
 body {
   max-width: 320px;
   margin: auto;
-  background-color: black;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
 }
@@ -18,10 +18,9 @@ body {
 .site-header {
   border: 2px solid white;
   margin: 19px 27px;
-  padding: 34px 29px;
+  padding: 55px 29px 50px 29px;
   background-image: url("../img/img_header.jpg");
   color: white; 
-  text-align: left;
   box-shadow: inset 0 0 0 100px #00000099;
 }
 
@@ -34,36 +33,20 @@ em {
   font-size: 20px;
 }
 
+main {
+  margin: 19px 27px;
+}
+
 div {
   background-color: #2afca6;
-  margin: 19px 27px;
   padding: 30px 29px 50px 29px;
   color: #033427;
+  margin-bottom: 20px;
 }
 
 article {
   background-color: white;
-  margin: 19px 27px;
   padding: 34px 29px;
-}
-
-.button {
-  background-color: #444444;
-  color: white;
-  padding: 2px 12px; 
-  font-size: 13px; 
-  text-decoration: none;
-  box-shadow: inset 2px 2px #393939; 
-  box-shadow: 2px 2px 3px #f6f6f6;
-  text-shadow: 1px #393939;
-}
-
-.author {
-  color: #18fca8;
-}
-
-.date {
-  color: #343434;
 }
 
 header p {
@@ -78,6 +61,25 @@ footer {
   padding: 17px 29px;
   text-align: center;
   font-size: 10px; 
+}
+
+.button {
+  background-color: #444444;
+  color: white;
+  padding: 2px 12px; 
+  font-size: 13px; 
+  text-decoration: none;
+  box-shadow: inset 0 0 2px 2px #393939; 
+  box-shadow: 0 0 2px 2px #f6f6f6;
+  text-shadow: 0 0 2px 2px #393939;
+}
+
+.author {
+  color: #18fca8;
+}
+
+.date {
+  color: #343434;
 }
 
 img {
