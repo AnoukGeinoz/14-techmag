@@ -12,7 +12,7 @@ body {
   max-width: 320px;
   margin: auto;
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .site-header {
@@ -42,23 +42,36 @@ div {
   padding: 30px 29px 50px 29px;
   color: #033427;
   margin-bottom: 20px;
+  font-size: 16px;
+}
+
+div h2 {
+  margin: 0 0 13px 0;
+}
+
+div p{
+margin: 0 0 16px 0;
 }
 
 article {
   background-color: white;
   padding: 34px 29px;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  margin: 0 0 14px 0;
 }
 
 header p {
   color: #a5a5a5;
-  font-size: 13px; 
+  font-size: 12px; 
 }
 
 footer {
   border: 2px solid #2bffaa; 
   color: white;
   margin: 19px 27px;
-  padding: 17px 29px;
   text-align: center;
   font-size: 10px; 
 }
@@ -66,7 +79,7 @@ footer {
 .button {
   background-color: #444444;
   color: white;
-  padding: 2px 12px; 
+  padding: 6px 15px; 
   font-size: 13px; 
   text-decoration: none;
   box-shadow: inset 0 0 2px 2px #393939; 
@@ -93,7 +106,7 @@ figure {
 }
 
 figcaption {
-  font-size: 13px;
+  font-size: 12px;
   padding: 10px;
   padding-top: 13px;
   margin-bottom: 30px;
