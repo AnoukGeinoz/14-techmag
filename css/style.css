@@ -88,11 +88,10 @@ img {
 
 figure {
   margin: 0;
-  box-shadow: 3px 3px 5px #e7e7e7;
+  box-shadow: 0 0 5px 5px #e7e7e7;
 }
 
 figcaption {
-  box-shadow: 3px 3px 5px #e7e7e7;
   font-size: 13px;
 }
 
